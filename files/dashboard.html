@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <title>Dashboard</title>
+    </head>
+    <body>
+        <a href='/logout'>Logout</a>
+        <a href="./files/update.html">Update Details</a>
+        <a href='/delete'>Delete Account</a>
+        <table>
+            <tr>
+                <td>Username</td>
+                <td>{{ .Username}}</td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td>{{ .Mailid}}</td>
+            </tr>
+            <tr>
+                <td>Role</td>
+                <td>{{ .Role}}</td>
+            </tr>
+            <tr>
+                <td>Company</td>
+                <td>{{ .Company}}</td>
+            </tr>
+            <tr>
+                <td>Department</td>
+                <td>{{ .Dept}}</td>
+            </tr>
+            <tr>
+                <td>Qualifications</td>
+                <td>{{ .Quali}}</td>
+            </tr>
+            
+        </table>
+        
+    </body>
+</html>
